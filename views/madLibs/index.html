@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thanksgiving Mad Libs Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Thanksgiving Mad Libs Game</h1>
+  <img src="turkey.png" alt="Funny cartoon" width="200">
+
+  <p>Enter words below:</p>
+  <label>Noun (thing): <input type="text" id="noun"></label><br>
+  <label>Verb: <input type="text" id="verb"></label><br>
+  <label>Adjective: <input type="text" id="adjective"></label><br>
+  <label>Place: <input type="text" id="place"></label><br>
+  <label>Animal: <input type="text" id="animal"></label><br><br>
+
+  <button onclick="generateStory()">Create Story</button>
+  <button onclick="clearStory()">Clear</button>
+
+  <h2>Your Story:</h2>
+  <p id="story"></p>
+</body>
+</html>

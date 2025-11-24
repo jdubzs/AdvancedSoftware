@@ -1,0 +1,38 @@
+/* Mad Libs Styling 
+Utilized ChatGPT to find Thanksgiving color codes for color of webpage (OpenAI), 2025.
+*/
+
+
+body {
+  background-color: #F5DEB3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #5C4033;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D2691E;
+  color: #5C4033;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+label {
+  color: #5C4033
+} 
+
+input {
+  margin: 4px;
+  padding: 4px;
+}
